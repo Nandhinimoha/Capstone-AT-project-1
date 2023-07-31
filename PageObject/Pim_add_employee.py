@@ -74,9 +74,7 @@ class Pim_add():
           employee_list = self.wait.until(EC.presence_of_element_located((By.XPATH, "//*[@id='app']/div[1]/div[1]/header/div[2]/nav/ul/li[2]")))
           if employee_list.is_displayed():
               print("New Employee personal details added Successful")
-          # save_success = self.wait.until(EC.presence_of_element_located((By.XPATH, '//*[@id="oxd-toaster_1"]')))
-          # if save_success.is_displayed():
-          #     print("Personal details saved Successfully!!")
+        
 
       except TimeoutException as e:
           print(e)
