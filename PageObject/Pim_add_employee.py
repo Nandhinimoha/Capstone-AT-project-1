@@ -87,16 +87,7 @@ class Pim_add():
 
 
 
-        #     self.wait.until(EC.visibility_of_element_located((By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[1]/div/div[2]/div/div/div[2]/i")))
-        #     nationality = self.wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(text(),'Algerian')]")))
-        #     nationality.click()
-        #     print(len(nationality))
-        #     self.wait.until(EC.visibility_of_element_located((By.XPATH, "//div[contains(text(),'American')]"))).click()
-        #     Marital_status = self.wait.until(EC.visibility_of_element_located((By.XPATH,"//*[@id='app']/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[1]/div[2]/div/div[2]/div/div/div[1]")))
-        #     self.actions.click(Marital_status).perform()
-        #
-        # except TimeoutException as e:
-        #     print(e)
+        
 
 
 
